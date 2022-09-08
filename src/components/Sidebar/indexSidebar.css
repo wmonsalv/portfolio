@@ -7,15 +7,19 @@
   z-index: 3;
   min-height: 500px;
 }
-.nav-bar logo {
+.nav-bar .logo {
   display: block;
   padding: 8px 0;
+  width: auto;
+  height: auto;
 }
-.nav-bar logo image {
+.nav-bar .logo img {
   display: block;
-  margin: 8px auto;
+  margin: 2px auto;
+  width: 50px;
+  height: 70%;
 }
-.nav-bar logo.sub-logo {
+.nav-bar .logo.sub-logo {
   width: 50px;
 }
 
@@ -29,8 +33,8 @@ nav {
   width: 100%;
 }
 nav a {
-  font-size: 50px;
-  color: white;
+  font-size: 22px;
+  color: #4d4d4e;
   display: block;
   line-height: 51px;
   height: 51px;

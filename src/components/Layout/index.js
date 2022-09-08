@@ -4,7 +4,9 @@ import Sidebar from "../Sidebar"
 const Layout = () => {
 
 return(
+
     <Sidebar/>
+  
 )
 
 }

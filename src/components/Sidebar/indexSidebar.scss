@@ -8,15 +8,17 @@
     min-height: 500px;
 
 
-    logo{
+    .logo{
         display: block;
         padding: 8px 0;
+        width: auto;
+        height: auto;
 
-        image {
+        img {
             display: block;
-            margin: 8px auto
-            //width: 24px;
-           // height: auto;
+            margin: 2px auto;
+            width: 50px;
+           height: 70%;
         }
 
         &.sub-logo {
@@ -26,7 +28,7 @@
 
 }
 
-nav {
+nav{
 
     display: block;
     text-align: center;
@@ -37,8 +39,8 @@ nav {
     width: 100%;
 
     a{
-        font-size: 50px;
-        color: white;
+        font-size: 22px;
+        color: #4d4d4e;
         display: block;
         line-height: 51px;
         height: 51px;
