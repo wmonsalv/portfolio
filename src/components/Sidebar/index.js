@@ -11,7 +11,9 @@ const Sidebar = () => (
         {/* <Link className="logo" to="/">
             <img src={logo} alt="logo"/>
             <img className="sub-logo" src={logoSubtitle} alt="logoSubtitle"/>
-        </Link> */}
+        </Link> 
+        Note to self: I may come back to try to add the logo*/}
+        
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} />
