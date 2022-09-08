@@ -8,15 +8,15 @@
     min-height: 500px;
 
 
-    .logo{
+    logo{
         display: block;
         padding: 8px 0;
 
         image {
             display: block;
-            margin: 8px auto;
-            width: 24px;
-            height: auto;
+            margin: 8px auto
+            //width: 24px;
+           // height: auto;
         }
 
         &.sub-logo {
@@ -50,7 +50,7 @@ nav {
         }
 
         &:hover{
-            color:"#4d4d4e"
+            color:"#4d4d4e";
         }
     }
 }
