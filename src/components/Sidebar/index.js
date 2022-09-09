@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import logo from "/Users/william_x1/portfolio/src/assets/images/William.png"
 import logoSubtitle from "/Users/william_x1/portfolio/src/assets/images/logo_sub.png"
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 const Sidebar = () => (
@@ -25,6 +26,24 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a 
+                target="_blank"
+                rel="noreferrer"
+                href="https://linkedin.com/in/william-monsalve-9902a4157" >
+                    <FontAwesomeIcon icon={faLinkedin} color="#7F7979"/>
+                </a>
+            </li>
+            <li>
+                <a 
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/wmonsalv" >
+                    <FontAwesomeIcon icon={faGithub} color="#7F7979"/>
+                </a>
+            </li>
+        </ul>
     </div>
 )
 
