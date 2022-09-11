@@ -4,9 +4,15 @@
     position: absolute;
 }
 
+.header-tags{
+    margin-left: -20px;
+    bottom: auto;
+    top: 5px;
+}
+
 .top-tags{
     bottom: auto;
-    top: 35px;
+    top: 28px;
 }
 
 .tags{
@@ -21,4 +27,19 @@
 
 .bottom-tag-html{
     margin-left: -20px;
+}
+
+.container{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s; 
 }
