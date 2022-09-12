@@ -4,6 +4,8 @@ import { useState, useEffect } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3, faHtml5, faJava, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
 
+//it appears cube finally works
+
 const About = () => {
 
     const [letterClass, setLetterClass] = useState("text-animate")
