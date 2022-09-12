@@ -10,11 +10,11 @@ const Home= ()=> {
     const [letterClass, setLetterClass] = useState("text-animate")
     const nameArray = [" ","W", "i", "l", "l", "i", "a", "m"]
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass("text-animate-hover")
-    //     }, 4000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            return setLetterClass("text-animate-hover")
+        }, 4000)
+    }, [])
     
     return(
         <div className="container home-page">
