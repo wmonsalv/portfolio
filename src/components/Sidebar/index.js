@@ -2,8 +2,6 @@ import "/Users/william_x1/portfolio/src/components/Sidebar/indexSidebar.scss";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import logo from "/Users/william_x1/portfolio/src/assets/images/William.png"
-import logoSubtitle from "/Users/william_x1/portfolio/src/assets/images/logo_sub.png"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 

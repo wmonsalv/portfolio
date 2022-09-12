@@ -4,7 +4,7 @@ import "./index.scss";
 const MainPicture = () => {
     return(
         <div className="picture-container">
-            <img className="image" src={require("/Users/william_x1/portfolio/src/assets/images/portfolioResized2.png")} alt="William"/>
+            <img className="image" src={require("/Users/william_x1/portfolio/src/assets/images/portfolio_imageCropped2.png")} alt="William"/>
         </div>
     )
 }
