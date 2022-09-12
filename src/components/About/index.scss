@@ -16,7 +16,7 @@
 animation-name: spincube;
   animation-timing-function: ease-in-out;
   animation-iteration-count:infinite;
-  animation-duration: 12s;
+  animation-duration: 200s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
@@ -28,7 +28,7 @@ animation-name: spincube;
         width: 200px;
         height: 200px;
         border: 1px solid #CCC;
-        background: rgba(255,255,255, 0.4);
+        background: rgba(255,255,255,0.4);
         display: flex;
         justify-content: center;
         align-items: center;
